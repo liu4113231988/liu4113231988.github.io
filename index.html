@@ -1,0 +1,82 @@
+<!--
+ * @Author: cy
+ * @Date: 2022-02-17 19:59:15
+ * @LastEditTime: 2022-03-08 20:33:36
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \EasyWeb\page\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>有个性的导航</title>
+    <link crossorigin="" rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./store/css/element-plus-index.css" />
+    <style type="text/css">
+        .el-tabs__content {
+            height: 400px;
+        }
+
+        .el-tabs--border-card {
+            background-color: #dcdcdc;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="./store/css/index.css">
+
+<body>
+    <div id="index" @contextmenu.prevent="showMenu($event)" @click.right="showMenu"
+        @keydown.ctrl.83.native="stopDefaultEvent">
+        <div class="mask_layer">
+            <div id="search_div">
+                <div id="time_div">
+                    <span id="hours_span"></span>
+                    <span id="second_span">:</span>
+                    <span id="minute_span"></span>
+                </div>
+                <div class="search_input_div">
+                    <input id="search_input" type="text" v-model="kw" placeholder="搜索..."
+                        @input="requestBaidu(this.value)" @focus="focusSearch" @blur="blurSearch"
+                        @keyup.enter="requestBaiduByKw(this.value)" />
+                    <el-button type="primary" size="large" @click="requestBaiduByKw(kw)" style="margin-top: -6px;">百度一下</el-button>
+                    <li id="navigation_words"></li>
+                </div>
+
+                <div id="key_word_show">
+                    <ul>
+                        <li v-for="item in kwResult" @click="requestBaiduByKw(item)" @mouseenter="enter($event)"
+                            @mouseleave="leave($event)">{{item.q}}
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <el-tabs type="border-card" style="margin: 0 auto;width: 60%;margin-top: 48px;">
+                <el-tab-pane label="常用">
+                    <card-item-list :items="items.comItemList"></card-item-list>
+                </el-tab-pane>
+                <el-tab-pane label="开发">
+                    <card-item-list :items="items.devItemList"></card-item-list>
+                </el-tab-pane>
+                <el-tab-pane label="科技">
+                    <card-item-list :items="items.tecItemList"></card-item-list>
+                </el-tab-pane>
+                <el-tab-pane label="财经">
+                    <card-item-list :items="items.finItemList"></card-item-list>
+                </el-tab-pane>
+                <el-tab-pane label="其他">
+                    <card-item-list :items="items.othItemList"></card-item-list>
+                </el-tab-pane>
+            </el-tabs>
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script src="./store/js/jquery.min.js"></script>
+<script src="./store/js/vue.global-3.2.31.js" type="text/javascript"></script>
+<script src="./store/js/index.full.js" type="text/javascript"></script>
+<script src="./store/js/index.js"></script>

@@ -1,0 +1,284 @@
+{
+  "result": {
+    "Common": [
+      {
+        "netName": "百度",
+        "url": "https://www.baidu.com/",
+        "icon": "./store/icons/baidu.png"
+      },
+      {
+        "netName": "必应",
+        "url": "https://cn.bing.com/",
+        "icon": "./store/icons/bing.png"
+      },
+      {
+        "netName": "12306",
+        "url": "https://www.12306.cn/index/",
+        "icon": "./store/icons/12306.ico"
+      },
+      {
+        "netName": "京东",
+        "url": "https://www.jd.com/",
+        "icon": " ./store/icons/jingdong.ico"
+      },
+      {
+        "netName": "GitHub",
+        "url": "https://github.com/",
+        "icon": "./store/icons/github.png"
+      },
+      {
+        "netName": "163邮箱",
+        "url": "https://mail.163.com/",
+        "icon": "./store/icons/163.ico"
+      },
+      {
+        "netName": "博客园",
+        "url": "https://www.cnblogs.com/",
+        "icon": "./store/icons/cnblog.ico"
+      },
+      {
+        "netName": "开源中国",
+        "url": "https://www.oschina.net/",
+        "icon": "./store/icons/oschina.ico"
+      },
+      {
+        "netName": "阿里云邮箱",
+        "url": "https://mail.aliyun.com/",
+        "icon": "./store/icons/aliyunmail.ico"
+      },
+      {
+        "netName": "360搜索",
+        "url": "https://www.so.com/",
+        "icon": "./store/icons/360sou.ico"
+      },
+      {
+        "netName": "搜狗搜索",
+        "url": "https://www.sogou.com/",
+        "icon": "./store/icons/sougou.ico"
+      },
+      {
+        "netName": "Goobe搜索",
+        "url": "https://goobe.io/",
+        "icon": "./store/icons/goobe.ico"
+      },
+      {
+        "netName": "IT之家",
+        "url": "https://www.ithome.com/",
+        "icon": "./store/icons/ITzj.png"
+      },
+      {
+        "netName": "快科技",
+        "url": "https://www.mydrivers.com/",
+        "icon": "./store/icons/mydriver.ico"
+      },
+      {
+        "netName": "掘金",
+        "url": "https://juejin.cn/",
+        "icon": "./store/icons/juejin.ico"
+      },
+      {
+        "netName": "SegmentFault",
+        "url": "https://segmentfault.com/",
+        "icon": "./store/icons/SegmentFault.png"
+      },
+      {
+        "netName": "开发者搜索",
+        "url": "https://kaifa.baidu.com/",
+        "icon": "./store/icons/default.png"
+      },
+      {
+        "netName": "智联招聘",
+        "url": "https://www.zhaopin.com/",
+        "icon": "./store/icons/zhilian.png"
+      },
+      {
+        "netName": "前程无忧",
+        "url": "https://www.51job.com/",
+        "icon": "./store/icons/51job.ico"
+      },
+      {
+        "netName": "猎聘网",
+        "url": "https://www.liepin.com/",
+        "icon": "./store/icons/liepin.ico"
+      }
+    ],
+    "Develop": [
+      {
+        "netName": "SqlSugar",
+        "url": "https://www.donet5.com/",
+        "icon": "./store/icons/sqlsugar.ico"
+      },
+      {
+        "netName": "书栈网",
+        "url": "https://www.bookstack.cn/",
+        "icon": "./store/icons/bokstack.ico"
+      },
+      {
+        "netName": "Sysinternals Suite",
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+        "icon": "./store/icons/microsoft.ico"
+      },
+      {
+        "netName": "Net源码",
+        "url": "https://referencesource.microsoft.com/",
+        "icon": "./store/icons/dotnet.ico"
+      },
+      {
+        "netName": "DeepL翻译",
+        "url": "https://www.deepl.com/translator",
+        "icon": "./store/icons/DeepL.png"
+      },
+      {
+        "netName": "网道",
+        "url": "https://wangdoc.com/",
+        "icon": "./store/icons/wangdoc.png"
+      },
+      {
+        "netName": "PublicApi",
+        "url": "https://public-apis.xyz/",
+        "icon": "./store/icons/public_api.png"
+      },
+      {
+        "netName": "极简插件",
+        "url": "https://chrome.zzzmh.cn/index#ext",
+        "icon": "./store/icons/chromeext.ico"
+      },
+      {
+        "netName": "DotNet源码",
+        "url": "https://source.dot.net/",
+        "icon": "./store/icons/dotnet.ico"
+      },
+      {
+        "netName": "涛思数据库",
+        "url": "https://taosdata.com/",
+        "icon": "./store/icons/taosi.ico"
+      },
+      {
+        "netName": "DevHints",
+        "url": "https://devhints.io/",
+        "icon": "./store/icons/Devhints.png"
+      },
+      {
+        "netName": "松果时序数据库",
+        "url": "http://www.pinusdb.cn/",
+        "icon": "./store/icons/pinusdb.ico"
+      },
+      {
+        "netName": "Vue3文档",
+        "url": "https://v3.cn.vuejs.org/",
+        "icon": "./store/icons/vue.png"
+      }
+    ],
+    "Tech": [
+      {
+        "netName": "知乎",
+        "url": "https://www.zhihu.com/hot",
+        "icon": "./store/icons/zhihu.png"
+      },
+      {
+        "netName": "果核剥壳",
+        "url": "https://www.ghxi.com/",
+        "icon": "./store/icons/guohe.png"
+      },
+      {
+        "netName": "Sodu小说",
+        "url": "http://www.soduso.org/",
+        "icon": "./store/icons/sodu.ico"
+      },
+      {
+        "netName": "ToolFK",
+        "url": "https://www.toolfk.com/",
+        "icon": "./store/icons/toolfk.png"
+      },
+      {
+        "netName": "拷贝兔",
+        "url": "https://cp.anyknew.com/",
+        "icon": "./store/icons/copytool.png"
+      },
+      {
+        "netName": "吾爱破解",
+        "url": "https://www.52pojie.cn/",
+        "icon": "./store/icons/52.png"
+      },
+      {
+        "netName": "老毛桃PE",
+        "url": "https://www.laomaotao.net/",
+        "icon": "./store/icons/laomaotao.ico"
+      }
+    ],
+    "Finance": [
+      {
+        "netName": "雪球",
+        "url": "https://xueqiu.com/today",
+        "icon": "./store/icons/xueqiu.png"
+      },
+      {
+        "netName": "果仁网",
+        "url": "https://guorn.com/stock/query/",
+        "icon": "./store/icons/guoren.ico"
+      },
+      {
+        "netName": "集思录",
+        "url": "https://www.jisilu.cn/explore/",
+        "icon": "./store/icons/jisilu.ico"
+      },
+      {
+        "netName": "东财可转债",
+        "url": "https://data.eastmoney.com/kzz/default.html",
+        "icon": "./store/icons/dongcai.ico"
+      },
+      {
+        "netName": "深交所公告",
+        "url": "http://www.szse.cn/disclosure/listed/notice/index.html",
+        "icon": "./store/icons/shenjiaosuo.ico"
+      },
+      {
+        "netName": "上交所公告",
+        "url": "http://www.sse.com.cn/disclosure/listedinfo/announcement/",
+        "icon": "./store/icons/shangjiaosuo.png"
+      },
+      {
+        "netName": "英为-股指期货",
+        "url": "https://www.laomaotao.net/",
+        "icon": "./store/icons/investing.ico"
+      },
+
+      {
+        "netName": "天天基金",
+        "url": "https://fund.eastmoney.com/",
+        "icon": "./store/icons/ttjj.png"
+      },
+      {
+        "netName": "问财",
+        "url": "http://www.iwencai.com/unifiedwap/home/index",
+        "icon": "./store/icons/wencai.ico"
+      },
+      {
+        "netName": "乌龟量化",
+        "url": "https://wglh.com/",
+        "icon": "./store/icons/wugui.ico"
+      },
+      {
+        "netName": "同花顺",
+        "url": "https://www.10jqka.com.cn/",
+        "icon": "./store/icons/tonghuashun.ico"
+      },
+      {
+        "netName": "九方智投",
+        "url": "https://www.9fzt.com/foundFlow/index.html",
+        "icon": "./store/icons/jfzt.ico"
+      },
+      {
+        "netName": "易斋网",
+        "url": "https://ww2.ezhai.net.cn/#/basedata",
+        "icon": "./store/icons/yizhai.png"
+      },
+      {
+        "netName": "逆回购",
+        "url": "https://www.chinamoney.com.cn/chinese/yhgkscczh/",
+        "icon": "./store/icons/whnhg.ico"
+      }
+    ],
+    "Other":[]
+  }
+}
