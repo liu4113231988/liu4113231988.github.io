@@ -25,6 +25,9 @@ const app = Vue.createApp({
       }),
       //navigatorIcons = Vue.ref([]),
       kwResult = Vue.ref([]);
+    let lastListIndex = -1,
+      tipListCount = -1,
+      hoverIndex = -1;
 
     const getNowTime = () => {
       var date = new Date();
@@ -34,13 +37,17 @@ const app = Vue.createApp({
         date.getMinutes() >= 10 ? date.getMinutes() : "0" + date.getMinutes();
     };
 
-    const enter = (event) => {
+    const enter = (event, index) => {
+      console.log(index);
+      hoverIndex = index;
       var el = event.currentTarget;
       el.style.animationName = "kwsl";
+      $(el).siblings().css({ "animation-name": "kwsl2" });
     };
     const leave = (event) => {
       var el = event.currentTarget;
       el.style.animationName = "kwsl2";
+      hoverIndex = -1;
     };
 
     const updateTime = () => {
@@ -74,6 +81,7 @@ const app = Vue.createApp({
         dataType: "jsonp",
         success: function (result) {
           kwResult.value = result.g;
+          tipListCount = result.g.length;
           showSearchResultAnimation();
         },
         error: function (result) {
@@ -124,26 +132,6 @@ const app = Vue.createApp({
       //   '"';
       // el2.style.animationName = "nw2";
       //timeOfNavigatorWords.value = 0;
-    };
-
-    const navigatorChange = (event) => {
-      var el = event.currentTarget;
-      if (currentNavigatorIconsIndex.value >= navigatorIconsMax.value) {
-        currentNavigatorIconsIndex.value = 1;
-      } else {
-        currentNavigatorIconsIndex.value++;
-      }
-      //更换 图标
-      el.style.backgroundImage =
-        "url(" + navigatorIcons[currentNavigatorIconsIndex.value - 1].url + ")";
-      //改变提示
-      var el2 = document.getElementById("navigation_words");
-      el2.innerHTML =
-        '当前搜索引擎 "' +
-        navigatorIcons[currentNavigatorIconsIndex.value - 1].name +
-        '"';
-      el2.style.animationName = "nw2";
-      timeOfNavigatorWords.value = 0; // 显示时间 置 0
     };
 
     const showSearchResultAnimation = () => {
@@ -203,7 +191,8 @@ const app = Vue.createApp({
 
     const focusSearch = () => {
       if (kw.value) {
-        showSearchResultAnimation();
+        // showSearchResultAnimation();
+        requestBaidu();
       }
     };
 
@@ -230,6 +219,46 @@ const app = Vue.createApp({
       });
     };
 
+    const upSelecor = () => {
+      if (hoverIndex == tipListCount - 1) {
+        lastListIndex = hoverIndex + 1;
+      } else if (hoverIndex > -1) {
+        lastListIndex = hoverIndex - 1;
+      } else {
+        lastListIndex === 0
+          ? (lastListIndex = tipListCount - 1)
+          : lastListIndex--;
+      }
+      hoverIndex = -1;
+      const selectedLi = $("#key_word_show ul li").eq(lastListIndex);
+      selectedLi
+        .css({ "animation-name": "kwsl" })
+        .siblings()
+        .css({ "animation-name": "kwsl2" });
+      var selectedText = selectedLi.html();
+      kw.value = selectedText;
+    };
+
+    const downSelector = () => {
+      if (hoverIndex == 0) {
+        lastListIndex = tipListCount - 1;
+      } else if (hoverIndex > 0) {
+        lastListIndex = hoverIndex + 1;
+      } else {
+        lastListIndex === tipListCount - 1
+          ? (lastListIndex = 0)
+          : lastListIndex++;
+      }
+      hoverIndex = -1;
+      const selectedLi = $("#key_word_show ul li").eq(lastListIndex);
+      selectedLi
+        .css({ "animation-name": "kwsl" })
+        .siblings()
+        .css({ "animation-name": "kwsl2" });
+      var selectedText = selectedLi.html();
+      kw.value = selectedText;
+    };
+
     Vue.onMounted(() => {
       onInit();
       updateTime();
@@ -244,12 +273,13 @@ const app = Vue.createApp({
       requestBaiduByKw,
       enter,
       requestBaidu,
-      //navigatorChange,
       showNavigator,
       stopDefaultEvent,
       focusSearch,
       blurSearch,
       reset,
+      downSelector,
+      upSelecor,
       menus,
       kw,
       kwResult,
