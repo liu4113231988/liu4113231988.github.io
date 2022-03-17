@@ -277,8 +277,17 @@
         "netName": "逆回购",
         "url": "https://www.chinamoney.com.cn/chinese/yhgkscczh/",
         "icon": "./store/icons/whnhg.ico"
+      },
+      {
+        "netName": "韭圈儿",
+        "url": "https://www.funddb.cn/",
+        "icon": "./store/icons/funddb.ico"
       }
     ],
-    "Other":[]
+    "Other":[{
+      "netName": "闪烁加速",
+      "url": "https://burstlinker.com/",
+      "icon": "./store/icons/shanshuo.ico"
+    }]
   }
 }
