@@ -101,27 +101,7 @@ const app = Vue.createApp({
       } else if (kw.value != null && kw.value != undefined) {
         window.open(urlHeader + encodeURIComponent(kw.value) + urlTail);
       }
-    };
-
-    const menuHidden = () => {
-      var el = document.getElementById("menu_div");
-      if (menuIsShow.value) {
-        el.style.animationName = "md2";
-      }
-    };
-
-    const menuBtnReset = () => {
-      var elementsByClassName = document.getElementsByClassName(
-        "menu_navigation_btn"
-      );
-      for (let i = 0; i < elementsByClassName.length; i++) {
-        elementsByClassName[i].style.transform = "scale(1)";
-      }
-    };
-
-    const navigatorHidden = () => {
-      var el2 = document.getElementById("navigation_words");
-      el2.style.animationName = "nw";
+      $("#search_input").blur();
     };
 
     const showNavigator = () => {
@@ -146,7 +126,6 @@ const app = Vue.createApp({
     };
 
     const reset = () => {
-      //menuHidden();
       if (kwResultShow.value) {
         document.getElementById("key_word_show").style.animationName = "kws2";
       }

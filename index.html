@@ -1,7 +1,7 @@
 <!--
  * @Author: cy
  * @Date: 2022-02-17 19:59:15
- * @LastEditTime: 2022-03-16 19:25:41
+ * @LastEditTime: 2022-03-18 18:16:21
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \EasyWeb\page\index.html
@@ -50,7 +50,7 @@
                 <div id="key_word_show">
                     <ul>
                         <li v-for="(item,index) in kwResult" @click="requestBaiduByKw(item)" @mouseenter="enter($event,index)"
-                            @mouseleave="leave($event)">{{item.q}}
+                            @mouseleave="leave($event)" @hover="">{{item.q}}
                         </li>
                     </ul>
                 </div>

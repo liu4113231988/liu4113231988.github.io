@@ -242,7 +242,6 @@
         "url": "https://www.laomaotao.net/",
         "icon": "./store/icons/investing.ico"
       },
-
       {
         "netName": "天天基金",
         "url": "https://fund.eastmoney.com/",
@@ -284,10 +283,12 @@
         "icon": "./store/icons/funddb.ico"
       }
     ],
-    "Other":[{
-      "netName": "闪烁加速",
-      "url": "https://burstlinker.com/",
-      "icon": "./store/icons/shanshuo.ico"
-    }]
+    "Other": [
+      {
+        "netName": "闪烁加速",
+        "url": "https://burstlinker.com/",
+        "icon": "./store/icons/shanshuo.ico"
+      }
+    ]
   }
 }
