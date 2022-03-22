@@ -281,6 +281,11 @@
         "netName": "韭圈儿",
         "url": "https://www.funddb.cn/",
         "icon": "./store/icons/funddb.ico"
+      },
+      {
+        "netName": "ETF之家",
+        "url": "http://www.etf.group/data/list1.html",
+        "icon": "./store/icons/etfgroup.ico"
       }
     ],
     "Other": [
