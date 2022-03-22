@@ -80,9 +80,14 @@ const app = Vue.createApp({
         url: reqUrl,
         dataType: "jsonp",
         success: function (result) {
-          kwResult.value = result.g;
-          tipListCount = result.g.length;
-          showSearchResultAnimation();
+          if (result && result.g) {
+            kwResult.value = result.g;
+            tipListCount = result.g.length;
+            showSearchResultAnimation();
+          }
+          else{
+            reset();
+          }
         },
         error: function (result) {
           console.log(result);
