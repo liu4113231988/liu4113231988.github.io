@@ -131,6 +131,7 @@ const app = Vue.createApp({
 
     const reset = () => {
       hoverIndex = -1;
+      $("#key_word_show ul li").css({ "animation-name": "kwsl2" });
       if (kwResultShow.value) {
         document.getElementById("key_word_show").style.animationName = "kws2";
       }
