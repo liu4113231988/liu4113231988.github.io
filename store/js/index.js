@@ -84,8 +84,7 @@ const app = Vue.createApp({
             kwResult.value = result.g;
             tipListCount = result.g.length;
             showSearchResultAnimation();
-          }
-          else{
+          } else {
             reset();
           }
         },
@@ -131,6 +130,7 @@ const app = Vue.createApp({
     };
 
     const reset = () => {
+      hoverIndex = -1;
       if (kwResultShow.value) {
         document.getElementById("key_word_show").style.animationName = "kws2";
       }
