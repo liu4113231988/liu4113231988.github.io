@@ -131,6 +131,7 @@ const app = Vue.createApp({
 
     const reset = () => {
       hoverIndex = -1;
+      lastListIndex = -1;
       $("#key_word_show ul li").css({ "animation-name": "kwsl2" });
       if (kwResultShow.value) {
         document.getElementById("key_word_show").style.animationName = "kws2";
@@ -210,9 +211,13 @@ const app = Vue.createApp({
       } else if (hoverIndex > -1) {
         lastListIndex = hoverIndex - 1;
       } else {
-        lastListIndex === 0
-          ? (lastListIndex = tipListCount - 1)
-          : lastListIndex--;
+        if (lastListIndex == -1) {
+          lastListIndex = tipListCount - 1;
+        } else {
+          lastListIndex === 0
+            ? (lastListIndex = tipListCount - 1)
+            : lastListIndex--;
+        }
       }
       hoverIndex = -1;
       const selectedLi = $("#key_word_show ul li").eq(lastListIndex);
@@ -230,9 +235,13 @@ const app = Vue.createApp({
       } else if (hoverIndex > 0) {
         lastListIndex = hoverIndex + 1;
       } else {
-        lastListIndex === tipListCount - 1
-          ? (lastListIndex = 0)
-          : lastListIndex++;
+        if (lastListIndex == -1) {
+          lastListIndex = 0;
+        } else {
+          lastListIndex === tipListCount - 1
+            ? (lastListIndex = 0)
+            : lastListIndex++;
+        }
       }
       hoverIndex = -1;
       const selectedLi = $("#key_word_show ul li").eq(lastListIndex);
