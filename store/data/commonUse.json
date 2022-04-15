@@ -286,6 +286,11 @@
         "netName": "ETF之家",
         "url": "http://www.etf.group/data/list1.html",
         "icon": "./store/icons/etfgroup.ico"
+      },
+      {
+        "netName": "宁稳网",
+        "url": "https://www.ninwin.cn/index.php?m=bbs&c=forumlist",
+        "icon": "./store/icons/ningwen.ico"
       }
     ],
     "Other": [
