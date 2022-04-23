@@ -291,6 +291,16 @@
         "netName": "宁稳网",
         "url": "https://www.ninwin.cn/index.php?m=bbs&c=forumlist",
         "icon": "./store/icons/ningwen.ico"
+      },
+      {
+        "netName": "发明者",
+        "url": "https://www.fmz.com/",
+        "icon": "./store/icons/fmz.ico"
+      },
+      {
+        "netName": "晨星基金网",
+        "url": "https://www.morningstar.cn/main/default.aspx",
+        "icon": "./store/icons/morningstar.ico"
       }
     ],
     "Other": [
