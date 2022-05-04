@@ -301,6 +301,11 @@
         "netName": "晨星基金网",
         "url": "https://www.morningstar.cn/main/default.aspx",
         "icon": "./store/icons/morningstar.ico"
+      },
+      {
+        "netName": "特特股",
+        "url": "http://www.tetegu.com/",
+        "icon": "./store/icons/tetegu.ico"
       }
     ],
     "Other": [
