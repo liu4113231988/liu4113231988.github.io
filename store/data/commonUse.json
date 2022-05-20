@@ -239,7 +239,7 @@
       },
       {
         "netName": "英为-股指期货",
-        "url": "https://www.laomaotao.net/",
+        "url": "https://cn.investing.com/indices/indices-futures",
         "icon": "./store/icons/investing.ico"
       },
       {
@@ -313,6 +313,11 @@
         "netName": "闪烁加速",
         "url": "https://burstlinker.com/",
         "icon": "./store/icons/shanshuo.ico"
+      },
+      {
+        "netName": "养猪网",
+        "url": "https://zhujia.zhuwang.cc/",
+        "icon": "./store/icons/yangzhu.ico"
       }
     ]
   }
