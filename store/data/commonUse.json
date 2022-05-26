@@ -165,7 +165,7 @@
       },
       {
         "netName": "Vue3文档",
-        "url": "https://v3.cn.vuejs.org/",
+        "url": "https://staging-cn.vuejs.org/",
         "icon": "./store/icons/vue.png"
       }
     ],
