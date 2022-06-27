@@ -1,10 +1,3 @@
-<!--
- * @Author: liucy liu4113231988@163.com
- * @Date: 2022-05-27 19:44:38
- * @LastEditors: liucy liu4113231988@163.com
- * @LastEditTime: 2022-06-26 20:25:34
- * @FilePath: 问财选股.md
--->
 ### 常用策略
 * [上穿均线；收盘价大于所有均线；非科创板；非北交所；](http://www.iwencai.com/unifiedwap/result?w=上穿均线；收盘价大于所有均线；非科创板&querytype=stock)
 * [放量；次新股；三日涨幅小于20%；非科创板；非北交所；](http://www.iwencai.com/unifiedwap/result?w=放量；次新股；三日涨幅小于20%；非科创板；非北交所&querytype=stock)
