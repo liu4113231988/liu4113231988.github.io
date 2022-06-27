@@ -318,6 +318,11 @@
         "netName": "养猪网",
         "url": "https://zhujia.zhuwang.cc/",
         "icon": "./store/icons/yangzhu.ico"
+      },
+      {
+        "netName": "心知天气",
+        "url": "https://www.seniverse.com/",
+        "icon": "./store/icons/seniverse.svg"
       }
     ]
   }
