@@ -1,0 +1,32 @@
+<!--
+ * @Author: liucy liu4113231988@163.com
+ * @Date: 2022-07-01 21:49:35
+ * @LastEditors: liucy liu4113231988@163.com
+ * @LastEditTime: 2022-07-01 22:17:50
+ * @FilePath: Stock.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选股策略</title>
+
+</head>
+
+<body>
+    <div id="dvMdContent"></div>
+    <script src="./store/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="./lib/marked.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $.get("./Stock.md").then(function (res) {
+            $("#dvMdContent").html(marked.parse(res))
+        }).fail(function (err) {
+            console.log(err);
+         })
+    </script>
+</body>
+
+</html>

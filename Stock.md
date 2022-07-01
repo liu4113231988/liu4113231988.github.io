@@ -6,7 +6,7 @@
 * [光伏概念股；一季度净利润同比增长大于20%；今年4月27日至今涨幅排名](http://www.iwencai.com/unifiedwap/result?w=光伏概念股；一季度净利润同比增长大于20%；今年4月27日至今涨幅排名；&querytype=stock)
 * [汽车零部件概念股；一季度净利润同比增长大于20%；今年4月27日至今涨幅排名](http://www.iwencai.com/unifiedwap/result?w=汽车零部件概念股；一季度净利润同比增长大于20%；今年4月27日至今涨幅排名；&querytype=stock)
 * [均线发散向上的股票；boll开口张开向上突破；非科创板；量能放大](http://www.iwencai.com/unifiedwap/result?w=均线发散向上的股票；boll开口张开向上突破；非科创板；量能放大；&querytype=stock)
-* [均线多头排列；旗型；](http://www.iwencai.com/unifiedwap/result?w=均线多头排列；旗型；；&querytype=stock)
+* [均线多头排列；旗型；非科创；](http://www.iwencai.com/unifiedwap/result?w=均线多头排列；旗型；非科创；&querytype=stock)
 * [均线多头排列；平台突破；](http://www.iwencai.com/unifiedwap/result?w=均线多头排列；平台突破；&querytype=stock)
 * [kdj金叉；突破年线；](http://www.iwencai.com/unifiedwap/result?w=kdj金叉；突破年线；&querytype=stock)
 * [一阳穿三线；平台突破；](http://www.iwencai.com/unifiedwap/result?w=一阳穿三线；平台突破；&querytype=stock)
