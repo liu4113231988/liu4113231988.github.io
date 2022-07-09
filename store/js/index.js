@@ -98,10 +98,13 @@ const app = Vue.createApp({
         "https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=";
       var urlTail =
         "&fenlei=256&rsv_pq=ac99dcf400099d65&rsv_t=70c2mAusNS7LBXsP4aeeQ7VRutMN5gd%2F3AXgMYBouXO7n4KJTw7OEm5bSmQ&rqlang=cn&rsv_enter=1&rsv_dl=ts_6&rsv_sug3=6&rsv_sug1=8&rsv_sug7=100&rsv_sug2=0&rsv_btype=i&prefixsug=12121&rsp=6&inputT=3318540&rsv_sug4=3318902";
+      const shieldBaijiahao = "%20-(baijiahao)";
       console.log(value);
       if (value != null && value != undefined) {
         var words = value.q || value;
-        window.open(urlHeader + encodeURIComponent(words) + urlTail);
+        window.open(
+          urlHeader + encodeURIComponent(words) + shieldBaijiahao + urlTail
+        );
       } else if (kw.value != null && kw.value != undefined) {
         window.open(urlHeader + encodeURIComponent(kw.value) + urlTail);
       }
