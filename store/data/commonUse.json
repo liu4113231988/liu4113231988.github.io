@@ -306,6 +306,11 @@
         "netName": "特特股",
         "url": "http://www.tetegu.com/",
         "icon": "./store/icons/tetegu.ico"
+      },
+      {
+        "netName": "Tushare",
+        "url": "https://tushare.pro/",
+        "icon": "./store/icons/tushare.png"
       }
     ],
     "Other": [
