@@ -165,7 +165,7 @@
       },
       {
         "netName": "Vue3文档",
-        "url": "https://staging-cn.vuejs.org/",
+        "url": "https://cn.vuejs.org/",
         "icon": "./store/icons/vue.png"
       }
     ],
@@ -311,6 +311,11 @@
         "netName": "Tushare",
         "url": "https://tushare.pro/",
         "icon": "./store/icons/tushare.png"
+      },
+      {
+        "netName": "财联社",
+        "url": "https://www.cls.cn/telegraph",
+        "icon": "./store/icons/cailianshe.ico"
       }
     ],
     "Other": [
