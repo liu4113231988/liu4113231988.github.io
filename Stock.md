@@ -10,4 +10,4 @@
 * [均线多头排列；平台突破；](http://www.iwencai.com/unifiedwap/result?w=均线多头排列；平台突破；&querytype=stock)
 * [kdj金叉；突破年线；](http://www.iwencai.com/unifiedwap/result?w=kdj金叉；突破年线；&querytype=stock)
 * [一阳穿三线；平台突破；](http://www.iwencai.com/unifiedwap/result?w=一阳穿三线；平台突破；&querytype=stock)
-* [近五日一阳穿三线；旗型形态；](http://www.iwencai.com/unifiedwap/result?w=近五日一阳穿三线；旗型形态；&querytype=stock)
+* [前五日一阳穿三线；旗型形态；](http://www.iwencai.com/unifiedwap/result?w=前五日一阳穿三线；旗型形态；&querytype=stock)
