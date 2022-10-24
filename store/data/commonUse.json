@@ -316,6 +316,11 @@
         "netName": "财联社",
         "url": "https://www.cls.cn/telegraph",
         "icon": "./store/icons/cailianshe.ico"
+      },
+      {
+        "netName": "洞见研报",
+        "url": "https://www.djyanbao.com/",
+        "icon": "./store/icons/dongjianyanbao.ico"
       }
     ],
     "Other": [
@@ -333,6 +338,11 @@
         "netName": "心知天气",
         "url": "https://www.seniverse.com/",
         "icon": "./store/icons/seniverse.svg"
+      },
+      {
+        "netName": "AnLink",
+        "url": "https://cn.anlinksoft.com/",
+        "icon": "./store/icons/anlink.png"
       }
     ]
   }
