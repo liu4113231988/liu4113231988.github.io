@@ -167,6 +167,11 @@
         "netName": "Vue3文档",
         "url": "https://cn.vuejs.org/",
         "icon": "./store/icons/vue.png"
+      },
+      {
+        "netName": "全国SDK管理平台",
+        "url": "https://sdk.caict.ac.cn/official/#/home",
+        "icon": "./store/icons/caict-sdk.ico"
       }
     ],
     "Tech": [
