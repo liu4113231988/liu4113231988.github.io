@@ -348,6 +348,11 @@
         "netName": "AnLink",
         "url": "https://cn.anlinksoft.com/",
         "icon": "./store/icons/anlink.png"
+      },
+      {
+        "netName": "GoPup",
+        "url": "http://doc.gopup.cn/#/",
+        "icon": "./store/icons/gopup.png"
       }
     ]
   }
