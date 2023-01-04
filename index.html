@@ -1,7 +1,7 @@
 <!--
  * @Author: cy
  * @Date: 2022-02-17 19:59:15
- * @LastEditTime: 2022-07-01 22:12:50
+ * @LastEditTime: 2023-01-04 20:19:10
  * @LastEditors: liucy liu4113231988@163.com
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: index.html
@@ -27,9 +27,9 @@
 <link rel="stylesheet" href="./store/css/index.css">
 
 <body>
-    <div id="index" @contextmenu.prevent="showMenu($event)" @click.right="showMenu"
+    <div id="index" @contextmenu.prevent="showMenu($event)" @click.right="blurSearch"
         @keydown.ctrl.83.native="stopDefaultEvent">
-        <div class="mask_layer">
+        <div class="mask_layer" @click="blurSearch">
             <div id="search_div">
                 <div id="time_div">
                     <span id="hours_span"></span>
