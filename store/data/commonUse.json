@@ -326,6 +326,11 @@
         "netName": "洞见研报",
         "url": "https://www.djyanbao.com/",
         "icon": "./store/icons/dongjianyanbao.ico"
+      },
+      {
+        "netName": "数据基地",
+        "url": "https://www.shujujidi.com/",
+        "icon": "./store/icons/shujujidi.ico"
       }
     ],
     "Other": [
