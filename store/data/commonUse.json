@@ -331,6 +331,11 @@
         "netName": "数据基地",
         "url": "https://www.shujujidi.com/",
         "icon": "./store/icons/shujujidi.ico"
+      },
+      {
+        "netName": "国家统计局",
+        "url": "https://data.stats.gov.cn/",
+        "icon": "./store/icons/tongjiju.ico"
       }
     ],
     "Other": [
