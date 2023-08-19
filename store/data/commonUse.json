@@ -209,6 +209,16 @@
         "netName": "老毛桃PE",
         "url": "https://www.laomaotao.net/",
         "icon": "./store/icons/laomaotao.ico"
+      },
+      {
+        "netName": "GCam Hub",
+        "url": "https://www.celsoazevedo.com/files/android/google-camera/",
+        "icon": "./store/icons/gcam.png"
+      },
+      {
+        "netName": "HuggingFace",
+        "url": "https://huggingface.co/chat/",
+        "icon": "./store/icons/huggingface.png"
       }
     ],
     "Finance": [
@@ -296,11 +306,6 @@
         "netName": "宁稳网",
         "url": "https://www.ninwin.cn/index.php?m=bbs&c=forumlist",
         "icon": "./store/icons/ningwen.ico"
-      },
-      {
-        "netName": "Akshare",
-        "url": "https://akshare.akfamily.xyz/",
-        "icon": "./store/icons/Akshare.ico"
       },
       {
         "netName": "晨星基金网",
