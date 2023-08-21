@@ -318,9 +318,9 @@
         "icon": "./store/icons/tetegu.ico"
       },
       {
-        "netName": "Tushare",
-        "url": "https://tushare.pro/",
-        "icon": "./store/icons/tushare.png"
+        "netName": "Akshare",
+        "url": "https://akshare.akfamily.xyz/",
+        "icon": "./store/icons/Akshare.ico"
       },
       {
         "netName": "财联社",
