@@ -219,6 +219,11 @@
         "netName": "HuggingFace",
         "url": "https://huggingface.co/chat/",
         "icon": "./store/icons/huggingface.png"
+      },
+      {
+        "netName": "分享迷",
+        "url": "https://www.fenxm.com/",
+        "icon": "./store/icons/fenxm.ico"
       }
     ],
     "Finance": [
