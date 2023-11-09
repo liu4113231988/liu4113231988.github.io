@@ -17,11 +17,6 @@
         "icon": "./store/icons/12306.ico"
       },
       {
-        "netName": "京东",
-        "url": "https://www.jd.com/",
-        "icon": " ./store/icons/jingdong.ico"
-      },
-      {
         "netName": "GitHub",
         "url": "https://github.com/",
         "icon": "./store/icons/github.png"
