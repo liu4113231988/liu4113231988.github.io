@@ -368,6 +368,11 @@
         "netName": "GoPup",
         "url": "http://doc.gopup.cn/#/",
         "icon": "./store/icons/gopup.png"
+      },
+      {
+        "netName": "APKPure",
+        "url": "https://apkpure.com/cn",
+        "icon": "./store/icons/apkpure.ico"
       }
     ]
   }
