@@ -162,6 +162,14 @@
         "netName": "Vue3文档",
         "url": "https://cn.vuejs.org/",
         "icon": "./store/icons/vue.png"
+      },{
+        "netName": "Taro框架",
+        "url": "https://taro.jd.com/",
+        "icon": "./store/icons/taro.png"
+      },{
+        "netName": "Uniapp框架",
+        "url": "https://uniapp.dcloud.net.cn/",
+        "icon": "./store/icons/uniapp.png"
       },
       {
         "netName": "全国SDK管理平台",
