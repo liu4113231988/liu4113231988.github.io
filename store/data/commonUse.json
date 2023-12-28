@@ -227,6 +227,11 @@
         "netName": "分享迷",
         "url": "https://www.fenxm.com/",
         "icon": "./store/icons/fenxm.ico"
+      },
+      {
+        "netName": "DeepFaceLab论坛",
+        "url": "https://dfldata.cc/",
+        "icon": "./store/icons/deepfacelab.ico"
       }
     ],
     "Finance": [
