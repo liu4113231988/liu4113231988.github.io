@@ -387,6 +387,33 @@
         "url": "https://apkpure.com/cn",
         "icon": "./store/icons/apkpure.ico"
       }
+    ],
+    "aiList":[
+      {
+        "netName": "讯飞星火",
+        "url": "https://xinghuo.xfyun.cn/",
+        "icon": "./store/icons/xunfeixinghuo.ico"
+      },
+      {
+        "netName": "ClaudeAI",
+        "url": "https://claude.ai/chat/",
+        "icon": "./store/icons/claudeai.png"
+      },
+      {
+        "netName": "Hugging Face",
+        "url": "https://huggingface.co/chat/",
+        "icon": "./store/icons/huggingface.svg"
+      },
+      {
+        "netName": "通义千问",
+        "url": "https://tongyi.aliyun.com/qianwen/",
+        "icon": "./store/icons/tongyiqianwen.png"
+      },
+      {
+        "netName": "OpenAI",
+        "url": "https://openai.com/",
+        "icon": "./store/icons/openai.png"
+      }
     ]
   }
 }
