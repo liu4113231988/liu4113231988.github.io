@@ -205,6 +205,7 @@ const app = Vue.createApp({
           items.tecItemList = data.result.Tech;
           items.finItemList = data.result.Finance;
           items.othItemList = data.result.Other;
+          items.aiItemList = data.result.Ai;
         },
         error: function (result) {
           console.log(result);

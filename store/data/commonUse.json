@@ -388,7 +388,7 @@
         "icon": "./store/icons/apkpure.ico"
       }
     ],
-    "aiList":[
+    "Ai":[
       {
         "netName": "讯飞星火",
         "url": "https://xinghuo.xfyun.cn/",
