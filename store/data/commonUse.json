@@ -413,6 +413,16 @@
         "netName": "OpenAI",
         "url": "https://openai.com/",
         "icon": "./store/icons/openai.png"
+      },
+      {
+        "netName": "MicrosoftAI",
+        "url": "https://copilot.microsoft.com/",
+        "icon": "./store/icons/microsoft-copilot.ico"
+      },
+      {
+        "netName": "Google Bard",
+        "url": "https://bard.google.com/chat",
+        "icon": "./store/icons/google_bard.svg"
       }
     ]
   }
