@@ -423,6 +423,11 @@
         "netName": "Google Bard",
         "url": "https://bard.google.com/chat",
         "icon": "./store/icons/google_bard.svg"
+      },
+      {
+        "netName": "文心一言",
+        "url": "https://yiyan.baidu.com/",
+        "icon": "./store/icons/wenxinyiyan.ico"
       }
     ]
   }
