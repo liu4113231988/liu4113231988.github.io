@@ -435,6 +435,11 @@
 				"netName": "豆包",
 				"url": "https://www.doubao.com/",
 				"icon": "./store/icons/wenxinyiyan.ico"
+			},
+			{
+				"netName": "百川智能",
+				"url": "https://www.baichuan-ai.com/chat",
+				"icon": "./store/icons/baichuanzhineng.ico"
 			}
 		]
 	}
