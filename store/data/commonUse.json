@@ -191,11 +191,6 @@
 				"icon": "./store/icons/guohe.png"
 			},
 			{
-				"netName": "Sodu小说",
-				"url": "http://www.soduso.org/",
-				"icon": "./store/icons/sodu.ico"
-			},
-			{
 				"netName": "ToolFK",
 				"url": "https://www.toolfk.com/",
 				"icon": "./store/icons/toolfk.png"
