@@ -435,6 +435,16 @@
 				"netName": "百川智能",
 				"url": "https://www.baichuan-ai.com/chat",
 				"icon": "./store/icons/baichuanzhineng.ico"
+			},
+			{
+				"netName": "边界AI",
+				"url": "https://www.ai1foo.com/",
+				"icon": "./store/icons/bianjieai.png"
+			},
+			{
+				"netName": "POE聚合",
+				"url": "https://poe.com/",
+				"icon": "./store/icons/poeai.svg"
 			}
 		]
 	}
