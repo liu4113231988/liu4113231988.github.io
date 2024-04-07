@@ -417,9 +417,9 @@
 				"icon": "./store/icons/microsoft-copilot.ico"
 			},
 			{
-				"netName": "Google Bard",
-				"url": "https://bard.google.com/chat",
-				"icon": "./store/icons/google_bard.svg"
+				"netName": "Google Gemini",
+				"url": "https://gemini.google.com/app",
+				"icon": "./store/icons/gemini.svg"
 			},
 			{
 				"netName": "文心一言",
