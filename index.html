@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="./store/css/index.css">
 
 <body>
+    <!-- <div id="tp-weather-widget"></div> -->
     <div id="index" @contextmenu.prevent="showMenu($event)" @click.right="blurSearch"
         @keydown.ctrl.83.native="stopDefaultEvent">
         <div class="mask_layer" @click="blurSearch">
@@ -84,18 +85,20 @@
 <script>
     
 </script>
-<div id="tp-weather-widget"></div>
+
   <script>
-    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
-    window.SeniverseWeatherWidget('show', {
-      flavor: "bubble",
-      location: "WX4FBXXFKE4F",
-      geolocation: true,
-      language: "zh-Hans",
-      unit: "c",
-      theme: "auto",
-      token: "61fb5c11-c799-4e66-a3e3-c4f907c1911c",
-      hover: "enabled",
-      container: "tp-weather-widget"
-    })
+    // (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+    // window.SeniverseWeatherWidget('show', {
+    //   flavor: "bubble",
+    //   location: "WX4FBXXFKE4F",
+    //   geolocation: true,
+    //   language: "zh-Hans",
+    //   unit: "c",
+    //   theme: "auto",
+    //   token: "61fb5c11-c799-4e66-a3e3-c4f907c1911c",
+    //   hover: "always",
+    //   container: "tp-weather-widget"
+    // })
   </script>
+
+<div id="ww_39ff00dc2acb6" v='1.3' loc='auto' a='{"t":"responsive","lang":"zh","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_tof":"3","cl_odd":"#0000000a"}'><a href="https://weatherwidget.org/zh/" id="ww_39ff00dc2acb6_u" target="_blank">天气插件</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_39ff00dc2acb6"></script>
