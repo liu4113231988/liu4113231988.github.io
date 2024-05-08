@@ -445,6 +445,11 @@
 				"netName": "POE聚合",
 				"url": "https://poe.com/",
 				"icon": "./store/icons/poeai.svg"
+			},
+			{
+				"netName": "AIStarter",
+				"url": "https://www.starter.top/",
+				"icon": "./store/icons/AIStarter.png"
 			}
 		]
 	}
