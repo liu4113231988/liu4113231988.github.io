@@ -172,6 +172,16 @@
 				"netName": "全国SDK管理平台",
 				"url": "https://sdk.caict.ac.cn/official/#/home",
 				"icon": "./store/icons/caict-sdk.ico"
+			},
+			{
+				"netName": "MarsCode",
+				"url": "https://www.marscode.cn/",
+				"icon": "./store/icons/marscode.ico"
+			},
+			{
+				"netName": "Tencent Cloud Studio",
+				"url": "https://ide.cloud.tencent.com/",
+				"icon": "./store/icons/tencent-cloud.ico"
 			}
 		],
 		"Tech": [
