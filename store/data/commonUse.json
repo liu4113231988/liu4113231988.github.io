@@ -460,6 +460,11 @@
 				"netName": "腾讯元宝",
 				"url": "https://yuanbao.tencent.com/chat",
 				"icon": "./store/icons/tencentyuanbao.png"
+			},
+			{
+				"netName": "大模型竞技场",
+				"url": "https://arena.lmsys.org/",
+				"icon": "./store/icons/lmsys.ico"
 			}
 		]
 	}
