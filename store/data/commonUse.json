@@ -455,6 +455,11 @@
 				"netName": "AIStarter",
 				"url": "https://www.starter.top/",
 				"icon": "./store/icons/AIStarter.png"
+			},
+			{
+				"netName": "腾讯元宝",
+				"url": "https://yuanbao.tencent.com/chat",
+				"icon": "./store/icons/tencentyuanbao.png"
 			}
 		]
 	}
