@@ -469,8 +469,7 @@
 			{
 				"netName": "书生-浦语",
 				"url": "https://internlm.intern-ai.org.cn/",
-				"icon": "./store/icons/intern_shusheng.png
-"
+				"icon": "./store/icons/intern_shusheng.png"
 			}
 		]
 	}
