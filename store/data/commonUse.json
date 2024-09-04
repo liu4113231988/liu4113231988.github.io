@@ -99,9 +99,9 @@
 				"icon": "./store/icons/sqlsugar.ico"
 			},
 			{
-				"netName": "书栈网",
-				"url": "https://www.bookstack.cn/",
-				"icon": "./store/icons/bokstack.ico"
+				"netName": "阿里云效",
+				"url": "https://devops.aliyun.com/workbench",
+				"icon": "./store/icons/aliyunxiao.svg"
 			},
 			{
 				"netName": "Sysinternals Suite",
