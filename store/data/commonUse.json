@@ -124,11 +124,6 @@
 				"icon": "./store/icons/wangdoc.png"
 			},
 			{
-				"netName": "PublicApi",
-				"url": "https://public-apis.xyz/",
-				"icon": "./store/icons/public_api.png"
-			},
-			{
 				"netName": "极简插件",
 				"url": "https://chrome.zzzmh.cn/index#ext",
 				"icon": "./store/icons/chromeext.ico"
@@ -147,11 +142,6 @@
 				"netName": "DevHints",
 				"url": "https://devhints.io/",
 				"icon": "./store/icons/Devhints.png"
-			},
-			{
-				"netName": "松果时序数据库",
-				"url": "http://www.pinusdb.cn/",
-				"icon": "./store/icons/pinusdb.ico"
 			},
 			{
 				"netName": "Vue3文档",
@@ -199,11 +189,6 @@
 				"netName": "ToolFK",
 				"url": "https://www.toolfk.com/",
 				"icon": "./store/icons/toolfk.png"
-			},
-			{
-				"netName": "拷贝兔",
-				"url": "https://cp.anyknew.com/",
-				"icon": "./store/icons/copytool.png"
 			},
 			{
 				"netName": "吾爱破解",
@@ -323,11 +308,6 @@
 				"icon": "./store/icons/morningstar.ico"
 			},
 			{
-				"netName": "特特股",
-				"url": "http://www.tetegu.com/",
-				"icon": "./store/icons/tetegu.ico"
-			},
-			{
 				"netName": "Akshare",
 				"url": "https://akshare.akfamily.xyz/",
 				"icon": "./store/icons/Akshare.ico"
@@ -440,11 +420,6 @@
 				"netName": "百川智能",
 				"url": "https://www.baichuan-ai.com/chat",
 				"icon": "./store/icons/baichuanzhineng.ico"
-			},
-			{
-				"netName": "边界AI",
-				"url": "https://www.ai1foo.com/",
-				"icon": "./store/icons/bianjieai.png"
 			},
 			{
 				"netName": "POE聚合",
