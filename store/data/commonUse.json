@@ -377,11 +377,6 @@
 				"icon": "./store/icons/xunfeixinghuo.ico"
 			},
 			{
-				"netName": "ClaudeAI",
-				"url": "https://claude.ai/chat/",
-				"icon": "./store/icons/claudeai.png"
-			},
-			{
 				"netName": "Hugging Face",
 				"url": "https://huggingface.co/chat/",
 				"icon": "./store/icons/huggingface.svg"
@@ -405,11 +400,6 @@
 				"netName": "Google Gemini",
 				"url": "https://gemini.google.com/app",
 				"icon": "./store/icons/gemini.svg"
-			},
-			{
-				"netName": "文心一言",
-				"url": "https://yiyan.baidu.com/",
-				"icon": "./store/icons/wenxinyiyan.ico"
 			},
 			{
 				"netName": "豆包",
@@ -445,6 +435,26 @@
 				"netName": "书生-浦语",
 				"url": "https://internlm.intern-ai.org.cn/",
 				"icon": "./store/icons/intern_shusheng.png"
+			},
+			{
+				"netName": "智谱",
+				"url": "https://www.zhipuai.cn/zh",
+				"icon": "./store/icons/zhipu.svg"
+			},
+			{
+				"netName": "MiroThinker",
+				"url": "https://dr.miromind.ai/",
+				"icon": "./store/icons/miromind.png"
+			},
+			{
+				"netName": "xiaomimimo",
+				"url": "https://aistudio.xiaomimimo.com/",
+				"icon": "./store/icons/xiaomimimo.png"
+			},
+			{
+				"netName": "Ai Studio",
+				"url": "https://aistudio.google.com/",
+				"icon": "./store/icons/google.svg"
 			}
 		]
 	}
