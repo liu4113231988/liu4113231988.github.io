@@ -368,6 +368,11 @@
 				"netName": "Proton",
 				"url": "https://proton.me/",
 				"icon": "./store/icons/proton.ico"
+			},
+			{
+				"netName": "fscloud",
+				"url": "https://web.fscloud.app",
+				"icon": "./store/icons/fscloud.png"
 			}
 		],
 		"Ai": [
@@ -455,6 +460,11 @@
 				"netName": "Ai Studio",
 				"url": "https://aistudio.google.com/",
 				"icon": "./store/icons/google.svg"
+			},
+			{
+				"netName": "modelscope",
+				"url": "https://www.modelscope.cn/home",
+				"icon": "./store/icons/modelscope.ico"
 			}
 		]
 	}
