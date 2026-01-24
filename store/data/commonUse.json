@@ -164,11 +164,6 @@
 				"icon": "./store/icons/caict-sdk.ico"
 			},
 			{
-				"netName": "MarsCode",
-				"url": "https://www.marscode.cn/",
-				"icon": "./store/icons/marscode.ico"
-			},
-			{
 				"netName": "Tencent Cloud Studio",
 				"url": "https://ide.cloud.tencent.com/",
 				"icon": "./store/icons/tencent-cloud.ico"
