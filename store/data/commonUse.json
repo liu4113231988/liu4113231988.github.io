@@ -167,6 +167,11 @@
 				"netName": "Tencent Cloud Studio",
 				"url": "https://ide.cloud.tencent.com/",
 				"icon": "./store/icons/tencent-cloud.ico"
+			},
+			{
+				"netName": "CNB云原生",
+				"url": "https://cnb.cool/",
+				"icon": "./store/icons/cnbtool.png"
 			}
 		],
 		"Tech": [
@@ -209,11 +214,6 @@
 				"netName": "DeepFaceLab论坛",
 				"url": "https://dfldata.cc/",
 				"icon": "./store/icons/deepfacelab.ico"
-			},
-			{
-				"netName": "CNB云原生",
-				"url": "https://cnb.cool/",
-				"icon": "./store/icons/cnbtool.png"
 			}
 		],
 		"Finance": [
