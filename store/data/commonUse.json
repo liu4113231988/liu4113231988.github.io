@@ -465,6 +465,11 @@
 				"netName": "modelscope",
 				"url": "https://www.modelscope.cn/home",
 				"icon": "./store/icons/modelscope.ico"
+			},
+			{
+				"netName": "grok",
+				"url": "https://grok.com/",
+				"icon": "./store/icons/grok.png"
 			}
 		]
 	}
