@@ -443,8 +443,13 @@
 			},
 			{
 				"netName": "智谱",
-				"url": "https://www.zhipuai.cn/zh",
+				"url": "https://chat.z.ai/",
 				"icon": "./store/icons/zhipu.svg"
+			},
+			{
+				"netName": "智谱清言",
+				"url": "https://chatglm.cn/",
+				"icon": "./store/icons/zhipuqingyan.png"
 			},
 			{
 				"netName": "MiroThinker",
