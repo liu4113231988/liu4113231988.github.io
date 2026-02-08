@@ -432,9 +432,9 @@
 				"icon": "./store/icons/tencentyuanbao.png"
 			},
 			{
-				"netName": "大模型竞技场",
-				"url": "https://arena.lmsys.org/",
-				"icon": "./store/icons/lmsys.svg"
+				"netName": "Arena",
+				"url": "https://arena.ai/",
+				"icon": "./store/icons/arena.svg"
 			},
 			{
 				"netName": "书生-浦语",
