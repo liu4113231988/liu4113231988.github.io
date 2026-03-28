@@ -12,6 +12,16 @@
 				"icon": "./store/icons/bing.png"
 			},
 			{
+				"netName": "Yandex",
+				"url": "https://yandex.com/",
+				"icon": "./store/icons/yandex.png"
+			},
+			{
+				"netName": "Yandex",
+				"url": "https://ya.ru/",
+				"icon": "./store/icons/yandex.png"
+			},
+			{
 				"netName": "12306",
 				"url": "https://www.12306.cn/index/",
 				"icon": "./store/icons/12306.ico"
