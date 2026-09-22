@@ -412,11 +412,6 @@
 				"icon": "./store/icons/openai.png"
 			},
 			{
-				"netName": "MicrosoftAI",
-				"url": "https://copilot.microsoft.com/",
-				"icon": "./store/icons/microsoft-copilot.ico"
-			},
-			{
 				"netName": "Google Gemini",
 				"url": "https://gemini.google.com/app",
 				"icon": "./store/icons/gemini.svg"
