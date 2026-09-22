@@ -398,7 +398,12 @@
 			},
 			{
 				"netName": "通义千问",
-				"url": "https://www.tongyi.com/",
+				"url": "https://www.qianwen.com/",
+				"icon": "./store/icons/tongyiqianwen.png"
+			},
+			{
+				"netName": "千问国际",
+				"url": "https://chat.qwen.com/",
 				"icon": "./store/icons/tongyiqianwen.png"
 			},
 			{
@@ -422,11 +427,6 @@
 				"icon": "./store/icons/wenxinyiyan.ico"
 			},
 			{
-				"netName": "百川智能",
-				"url": "https://www.baichuan-ai.com/chat",
-				"icon": "./store/icons/baichuanzhineng.ico"
-			},
-			{
 				"netName": "POE聚合",
 				"url": "https://poe.com/",
 				"icon": "./store/icons/poeai.svg"
@@ -447,11 +447,6 @@
 				"icon": "./store/icons/arena.svg"
 			},
 			{
-				"netName": "书生-浦语",
-				"url": "https://internlm.intern-ai.org.cn/",
-				"icon": "./store/icons/intern_shusheng.png"
-			},
-			{
 				"netName": "智谱",
 				"url": "https://chat.z.ai/",
 				"icon": "./store/icons/zhipu.svg"
@@ -470,6 +465,16 @@
 				"netName": "xiaomimimo",
 				"url": "https://aistudio.xiaomimimo.com/",
 				"icon": "./store/icons/xiaomimimo.png"
+			},
+			{
+				"netName": "deepseek",
+				"url": "https://chat.deepseek.com/",
+				"icon": "./store/icons/deepseek.svg"
+			},
+			{
+				"netName": "Cline",
+				"url": "https://cline.bot/",
+				"icon": "./store/icons/cline.png"
 			},
 			{
 				"netName": "Ai Studio",
